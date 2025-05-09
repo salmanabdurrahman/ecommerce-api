@@ -63,6 +63,3 @@ lib-cov/
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# Ignore generated SQL files from Drizzle
-drizzle/*.sql
