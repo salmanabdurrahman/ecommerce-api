@@ -1,0 +1,39 @@
+{
+	"name": "ecommerce-api",
+	"version": "1.0.0",
+	"description": "E-Commerce API with Node.js, Express, PostgreSQL and Drizzle ORM",
+	"main": "src/server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node src/server.js",
+		"dev": "nodemon src/server.js",
+		"generate": "drizzle-kit generate",
+		"migrate": "node src/db/migrate.js",
+		"seed": "node src/db/seed.js"
+	},
+	"keywords": [
+		"nodejs",
+		"express",
+		"postgresql",
+		"drizzle",
+		"api",
+		"swagger"
+	],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"dependencies": {
+		"@faker-js/faker": "^9.7.0",
+		"dotenv": "^16.5.0",
+		"drizzle-orm": "^0.43.1",
+		"express": "^5.1.0",
+		"pg": "^8.15.6",
+		"prettier": "^3.5.3",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^5.0.1"
+	},
+	"devDependencies": {
+		"drizzle-kit": "^0.31.1",
+		"nodemon": "^3.1.10"
+	}
+}

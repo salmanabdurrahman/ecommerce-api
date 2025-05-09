@@ -1,0 +1,15 @@
+{
+	"trailingComma": "all",
+	"tabWidth": 4,
+	"printWidth": 120,
+	"htmlWhitespaceSensitivity": "css",
+	"insertPragma": false,
+	"proseWrap": "preserve",
+	"requirePragma": false,
+	"useTabs": true,
+	"singleQuote": false,
+	"semi": true,
+	"vueIndentScriptAndStyle": false,
+	"embeddedLanguageFormatting": "auto",
+	"arrowParens": "avoid"
+}
